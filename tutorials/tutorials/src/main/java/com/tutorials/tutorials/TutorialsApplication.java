@@ -13,4 +13,8 @@ public class TutorialsApplication {
 		SpringApplication.run(TutorialsApplication.class, args);
 
 	}
+
+	// you can create all your beans here. When you go to the @SpringBootApplication, you can
+	// see that it has been annotated with @SpringConfiguration and @SpringConfiguration has also
+	// been annotated with @Configuration
 }
